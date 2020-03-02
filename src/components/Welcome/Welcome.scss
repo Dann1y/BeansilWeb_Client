@@ -11,7 +11,7 @@
     flex-direction: column;
 
     .c-welcome__wrapper--gsm {
-      margin-top: 70px;
+      margin-top: 60px;
       font-family: Poiret One;
       font-style: normal;
       font-weight: normal;
@@ -28,10 +28,15 @@
       font-weight: 300;
       font-size: 60px;
       line-height: 77px;
-      margin-top: 60px;
+      margin-top: 40px;
       /* identical to box height */
 
       color: #7fa998;
+    }
+
+    img {
+      position: absolute;
+      margin-top: 225px;
     }
   }
 }
