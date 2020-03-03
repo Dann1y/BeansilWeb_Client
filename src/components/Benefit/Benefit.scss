@@ -1,0 +1,118 @@
+.c-benefit {
+  width: 100%;
+  height: 1398px;
+  background: #add1aa;
+  border: 30px solid #fffbf3;
+  box-sizing: border-box;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .c-benefit__wrapper--beansil {
+      margin-top: 60px;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 60px;
+      /* identical to box height */
+
+      color: #000000;
+    }
+
+    .c-benefit__wrapper--desc {
+      display: flex;
+      margin-top: 105px;
+
+      &__box {
+        position: static;
+        width: 410px;
+        height: 521px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 54px;
+        margin-right: 54px;
+
+        background: #fffbf3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+
+        svg {
+          margin-top: 60px;
+        }
+
+        .c-benefit__wrapper--desc__box--title {
+          font-family: Segoe UI;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 40px;
+          margin-top: 340px;
+          position: absolute;
+
+          color: #000000;
+        }
+
+        .c-benefit__wrapper--desc__box--content {
+          position: absolute;
+          font-family: Segoe UI;
+          font-style: normal;
+          font-size: 18px;
+          line-height: 25px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin-top: 400px;
+
+          color: #000000;
+        }
+      }
+    }
+
+    svg {
+      margin-top: 5%;
+    }
+
+    .c-benefit__wrapper--dev {
+      width: 800px;
+      height: 170px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #fffbf3;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 88.5px;
+      margin-top: 64px;
+
+      &__title {
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 51px;
+        margin-top: 25px;
+        /* identical to box height */
+
+        color: #ff9776;
+      }
+
+      &__desc {
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 28px;
+        line-height: 37px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+
+        color: #000000;
+      }
+    }
+  }
+}

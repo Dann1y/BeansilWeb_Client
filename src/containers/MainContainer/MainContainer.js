@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "components/Header/Header";
 import Welcome from "components/Welcome/Welcome";
 import About from "components/About/About";
+import Benefit from "components/Benefit/Benefit";
 
 class MainContainer extends Component {
   render() {
@@ -10,6 +11,7 @@ class MainContainer extends Component {
         <Header />
         <Welcome />
         <About />
+        <Benefit />
       </>
     );
   }
