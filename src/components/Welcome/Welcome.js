@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Welcome.scss";
 
-//import { ReactComponent as Clip } from "assets/Clip.svg";
 import Clip from "assets/Clip.png";
 
 class Welcome extends Component {
