@@ -1,0 +1,49 @@
+.c-apply {
+  width: 100%;
+  height: 1080px;
+  background: #fffbf3;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .c-apply__wrapper--desc {
+      margin-top: 200px;
+      margin-bottom: 100px;
+
+      span {
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 51px;
+
+        color: #000000;
+
+        span {
+          margin-left: 200px;
+        }
+      }
+    }
+
+    .c-apply__wrapper--button {
+      position: absolute;
+      width: 387px;
+      height: 107px;
+      left: 740px;
+      top: 4140px;
+
+      background: #add1aa;
+      border-radius: 50px;
+
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 53px;
+
+      color: #fffbf3;
+    }
+  }
+}
