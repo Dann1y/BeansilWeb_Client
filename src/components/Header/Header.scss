@@ -30,6 +30,9 @@
       line-height: 26px;
       font-weight: 300;
       cursor: pointer;
+      &:hover{
+        color: rgba(41, 187, 72, 0.8);
+      }
 
       color: #ffffff;
     }
