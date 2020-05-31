@@ -1,7 +1,11 @@
 .c-about {
   width: 100%;
-  height: 466px;
+  height: 550px;
   background: #fffbf3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__wrapper {
     display: flex;
