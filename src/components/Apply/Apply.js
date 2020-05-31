@@ -16,9 +16,9 @@ class Apply extends Component {
             </span>
           </div>
           <img src={Man} alt="man" />
-          <button className="c-apply__wrapper--button">
+          <span className="c-apply__wrapper--button">
               APPLY
-          </button>
+          </span>
         </div>
       </div>
     );
